@@ -22,7 +22,7 @@ namespace Snake
 
         static void Main(string[] args)
         {
-        end:
+        GAME:
             Console.CursorVisible = false;
             Console.Title = "SNAKE";
 
@@ -150,7 +150,7 @@ namespace Snake
                     {
                         Console.ResetColor();
                         Console.Clear();
-                        goto end;
+                        goto GAME;
                     }
                     //Иначе...
                     else
