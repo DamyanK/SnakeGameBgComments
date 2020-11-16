@@ -27,8 +27,8 @@ namespace Snake
             Console.Title = "SNAKE";
 
             //Размери
-            Console.WindowHeight = 25;
-            Console.WindowWidth = 50;
+            Console.WindowHeight = 30;
+            Console.WindowWidth = 40;
 
             //Премахване на слайдери
             Console.BufferHeight = Console.WindowHeight;
@@ -48,13 +48,11 @@ namespace Snake
 
             //Генериране на координати за храната
             Coordinates food;
-            int foodPushTime;
             do
             {
                 food = new Coordinates(
                     randomNumberGenerator.Next(1, Console.WindowHeight - 1),
                     randomNumberGenerator.Next(1, Console.WindowWidth - 1));
-                foodPushTime = Environment.TickCount;
             }
             while (snakeElements.Contains(food));
 
@@ -175,13 +173,6 @@ namespace Snake
                             randomNumberGenerator.Next(1, Console.WindowWidth - 1));
                     }
                     while (snakeElements.Contains(food));
-
-                    //Принтиране на храната
-                    Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.SetCursorPosition(food.col, food.row);
-                    Console.Write("*");
-                    Console.ResetColor();
-
                 }
                 else
                 {

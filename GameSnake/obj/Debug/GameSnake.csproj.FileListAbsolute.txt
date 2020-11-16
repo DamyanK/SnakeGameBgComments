@@ -5,3 +5,10 @@ C:\Users\user\source\repos\GameSnake\GameSnake\obj\Debug\GameSnake.csprojAssembl
 C:\Users\user\source\repos\GameSnake\GameSnake\obj\Debug\GameSnake.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\GameSnake\GameSnake\obj\Debug\GameSnake.exe
 C:\Users\user\source\repos\GameSnake\GameSnake\obj\Debug\GameSnake.pdb
+C:\Users\user\SnakeGameBgComments\GameSnake\bin\Debug\GameSnake.exe.config
+C:\Users\user\SnakeGameBgComments\GameSnake\bin\Debug\GameSnake.exe
+C:\Users\user\SnakeGameBgComments\GameSnake\bin\Debug\GameSnake.pdb
+C:\Users\user\SnakeGameBgComments\GameSnake\obj\Debug\GameSnake.csprojAssemblyReference.cache
+C:\Users\user\SnakeGameBgComments\GameSnake\obj\Debug\GameSnake.csproj.CoreCompileInputs.cache
+C:\Users\user\SnakeGameBgComments\GameSnake\obj\Debug\GameSnake.exe
+C:\Users\user\SnakeGameBgComments\GameSnake\obj\Debug\GameSnake.pdb
